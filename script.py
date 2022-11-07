@@ -61,7 +61,6 @@ async def select(event):
 
     except Exception as e: 
         print(e)
-        await client.send_message(SENDER, "<b>پایان سشن✔️</b>", parse_mode='html')
         return
 
 
